@@ -5,7 +5,7 @@ function calculateMinCost() {
   // Convert input into numbers and add to the min heap
   value.map(Number).forEach(num => minHeap.push(num));
 
-  let totalCost = 0;
+  let totalCost = 0
 
   while (minHeap.size() > 1) {
     let a = minHeap.pop();
